@@ -29,14 +29,14 @@ public class Gravar extends HttpServlet {
         fone = request.getParameter("fone");
         
         // adicionado na segunda aula (veio da classe gravar) serve oara gravar dentro do arrayist
-        //Dados novo = new Dados();
-        //novo.setNome(nome);
-        //novo.setIdade(idade);
-        //novo.setEndereco(endereco);
-        //novo.setCidade(cidade);
-        //novo.setFone(fone);
-        //Dados.lista01.add(novo);
-        //
+        Dados novo = new Dados();
+        novo.setNome(nome);
+        novo.setIdade(idade);
+        novo.setEndereco(endereco);
+        novo.setCidade(cidade);
+        novo.setFone(fone);
+        Dados.lista.add(novo);
+        
         
         
         response.setContentType("text/html");

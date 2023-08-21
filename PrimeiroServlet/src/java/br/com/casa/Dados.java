@@ -27,7 +27,7 @@ public class Dados {
     private String cidade;
     private String fone;
     private int idade;
-    private static List<Dados> lista = new ArrayList();
+    public static List<Dados> lista = new ArrayList();
 
     public String getNome() {
         return nome;

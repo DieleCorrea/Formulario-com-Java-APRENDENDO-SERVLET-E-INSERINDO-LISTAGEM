@@ -4,9 +4,17 @@
         <servlet-name>Gravar</servlet-name>
         <servlet-class>br.com.casa.Gravar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Listar</servlet-name>
+        <servlet-class>br.com.casa.Listar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Gravar</servlet-name>
         <url-pattern>/gravar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Listar</servlet-name>
+        <url-pattern>/listar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
